@@ -1,7 +1,6 @@
 import { connectToDatabase } from "@/lib/mongodb";
 import User from "@/model/User";
 import bcrypt from "bcryptjs";
-import { NextApiRequest, NextApiResponse } from "next";
 import jwt from "jsonwebtoken";
 import { NextResponse } from "next/server";
 
